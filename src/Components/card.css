@@ -1,0 +1,8 @@
+.card img {
+    width: 100%;               /* Make image width 100% of the card */
+    height: 400px;            /* Set a fixed height for the images */
+    object-fit: cover;        /* Cover the entire area */
+    object-position: top;     /* Align the image to the top */
+    border-radius: 10px;      /* Optional: Add rounded corners */
+  }
+  

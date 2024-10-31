@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+h1 {
+  font-family: "poppins";
+  font-size: 40px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background-color: #e7e6e6;
+}
+.hero p {
+  font-family: "poppins";
+}
+.unique {
+  background-color: #ebd96b;
+}
+.navbar {
+  font-family: "poppins";
+  padding: 10px 20px;
+}
+.nav-img {
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+}
+.card-title {
+  font-family: "poppins";
+}
+.brands {
+  background-color: #ebd96b;
+}
+.brands img {
+  height: 50px;
+  width: 80px;
+}
+.sale {
+  background-color: #ebd96b;
+}
+.sale-img {
+  height: 500px;
+  width: 500px;
+}
+.extra-large {
+  font-size: 5rem; /* Adjust the size as per your requirement */
+}
+.Promo {
+  background-color: #edcf10;
+}
+.mobile {
+  max-width: 100%;
+  height: auto;
+}
+
+.smaller-img {
+  max-width: 80%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.footer {
+  background-color: black;
+}
+.footer img {
+  max-width: 150px; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.no-arrows {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.no-arrows::-webkit-outer-spin-button,
+.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Chrome, Safari, Edge, Opera */
+  margin: 0; /* Remove margin in older versions of Firefox */
+}
