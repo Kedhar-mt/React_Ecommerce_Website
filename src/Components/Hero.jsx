@@ -14,7 +14,7 @@ const Hero = () => {
           <button type="button" className="btn btn-dark">Shop Now</button>
         </div>
         <div className="col-md-5 col-12 d-flex justify-content-start">
-          <img src="./src/images/heroimg.png" alt="hero image" className="img-fluid" />
+          <img src="/images/heroimg.png" alt="hero image" className="img-fluid" />
         </div>
       </div>
     </div>

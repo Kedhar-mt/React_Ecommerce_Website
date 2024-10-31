@@ -12,11 +12,11 @@ const Voucher = () => {
         Get 30% off for the first transaction using <br />
         randivison mobile app for now
       </p>
-      <img src="./src/images/Frame 37.png" alt="" className="img-fluid smaller-img" />
+      <img src="/images/Frame 37.png" alt="" className="img-fluid smaller-img" />
     </div>
     <div className="col-md-3">
       <img
-        src="./src/images/Mobile app.png"
+        src="/images/Mobile app.png"
         alt=""
         className="img-fluid smaller-img"
       />

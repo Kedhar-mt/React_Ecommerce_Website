@@ -7,7 +7,7 @@ const Sale = () => {
       <div className="row d-flex align-items-center justify-content-center text-center">
         <div className="col-md-4 col-10 mb-3 mb-md-0 d-flex justify-content-center">
           <img
-            src="./src/images/image 12.png"
+            src="/images/image 12.png"
             alt=""
             className="img-fluid sale-img"
           />
