@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card'; // Ensure proper casing for import
+import Card from './Card.jsx'; // Ensure proper casing for import
 import { PRODUCTS } from '../products'; // Import the products array
 
 const Women = () => {
