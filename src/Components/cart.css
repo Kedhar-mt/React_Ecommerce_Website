@@ -1,45 +1,86 @@
 .cart {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+  transition: all 0.3s ease; /* Smooth transition for layout change */
+}
+
+.cartItem img {
+  width: 200px;
+  height: 270px;
+  padding: 20px;
+  object-fit: cover; /* Ensures the image maintains aspect ratio */
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 30px;
+  padding-left: 20px; /* Adds some space between the image and text */
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
   .cartItem {
-    width: 700px;
-    height: 250px;
-    display: flex;
-  
-    align-items: center;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-    margin: 30px;
+    flex-direction: column; /* Stack the image and description vertically */
+    align-items: flex-start; /* Align the content to the left */
+    height: auto; /* Allow the height to adjust based on content */
+    width: 100%; /* Ensure the item takes up full width on small screens */
+    padding: 20px; /* Add padding to avoid content touching edges */
   }
-  
+
   .cartItem img {
-    width: 200px;
-    height : 270px;
-    padding: 20px;
+    width: 100%; /* Make the image full width */
+    height: auto; /* Allow the image to scale proportionally */
+    padding: 0; /* Remove padding from the image */
+    margin-bottom: 20px; /* Add space below the image */
   }
-  
+
   .cartItem .description {
-    width: 100%;
-    font-size: 30px;
+    font-size: 20px; /* Smaller font size for mobile */
+    padding-left: 0; /* Remove left padding */
   }
-  
+
+  .countHandler {
+    width: 100%; /* Ensure the count handler takes up full width */
+    justify-content: space-between; /* Space out the buttons and input */
+    margin-top: 10px; /* Adds space between the product info and count controls */
+  }
+
   .countHandler input {
-    width: 40px;
-    text-align: center;
-    font-weight: bolder;
+    width: 50px; /* Slightly larger input on mobile */
   }
-  
+
   .checkout button {
-    width: 150px;
-    height: 50px;
-    background-color: rgb(19, 19, 19);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    margin: 10px;
-    cursor: pointer;
+    width: 100%; /* Make checkout button take full width */
+    height: 40px; /* Adjust height for mobile */
+    margin-top: 20px; /* Add space before the checkout button */
   }
+}
